@@ -3,6 +3,7 @@ namespace App\Controllers;
 
 use System\Core\Database;
 use System\Core\View;
+use App\Services\Password;
 
 class HomeController {
     public function index() {
@@ -22,16 +23,16 @@ class HomeController {
         $db = new Database();
 
         $data = [
-            'username' => 'smart'
+            'username' => 'smart',
+             'password' =>  $hashedPassword = Password::hash('1234')
         ];
 
 
-        $users = $db->table('tbl_users')->find(2); 
+        // $users = $db->table('tbl_users')->find(2); 
 
-// print_r($users);
-        // Update the record in the 'tbl_users' table
+
        
-        $db->table('tbl_users')->where('id', 2)->delete($data);
+        $db->table('tbl_userss')->where('id', 2)->insert($data);
 
 
 
