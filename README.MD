@@ -1,4 +1,4 @@
-LiteFlare
+##LiteFlare
 LiteFlare is a lightweight PHP framework inspired by Laravel and CodeIgniter, offering an easy-to-use routing system, fluent database queries, and templating using Smarty. It's perfect for small-to-medium-sized projects where simplicity and flexibility are key.
 
 Features
