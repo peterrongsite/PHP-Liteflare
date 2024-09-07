@@ -1,5 +1,5 @@
 {
-    "name": "max/framework",
+    "name": "php/liteflare",
     "description": "description",
     "autoload": {
         "psr-4": {
@@ -9,7 +9,7 @@
     },
     "authors": [
         {
-            "name": "max",
+            "name": "rongsite",
             "email": "firefoxstudio24@gmail.com"
         }
     ],
