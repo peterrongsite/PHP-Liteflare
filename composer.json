@@ -1,5 +1,5 @@
 {
-    "name": "liteflare",
+    "name": "rongsite/liteflare",
     "description": "description",
     "autoload": {
         "psr-4": {
