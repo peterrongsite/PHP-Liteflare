@@ -1,5 +1,5 @@
 {
-    "name": "php/liteflare",
+    "name": "liteflare",
     "description": "description",
     "autoload": {
         "psr-4": {
